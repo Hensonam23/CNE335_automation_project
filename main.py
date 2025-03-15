@@ -11,5 +11,8 @@ if __name__ == '__main__':
     print_program_info()
     # TODO - Create a Server object
     # TODO - Call Ping method and print the results
-     server = Server()
-     server.ping()
+    server = Server("54.190.35.62")
+    if server.ping():
+        print("Ping successful")
+    else:
+        print("Ping failed")
