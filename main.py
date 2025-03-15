@@ -2,6 +2,8 @@
 # Aaron Henson
 # CNE 335 Winter 2025
 
+from Server import Server
+
 def print_program_info():
     # TODO - Change your name
     print("Server Automator v0.1 by Aaron Henson")
